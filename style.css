@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium';
+    background-color: black;
+}
+.container{
+    padding: 1em;
+    margin: 1em;
+}
+header{
+    text-align: center;
+    text-decoration: underline dotted rgb(214, 170, 255);
+    font-family: 'Times New Roman';
+    color: rgb(255, 226, 154);
+}
+.logo{
+    animation: infinite;
+    animation: alternate;
+}
+.directivo{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    margin: 1em;
+}
+.alumnado{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+}
+.miembro{
+    margin: 1em;
+}
+.foto{
+    position: relative;
+}
+.miembro img{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    border: double goldenrod 6px;
+}
+/* .hoover :hover{
+    display: none;
+}
+.foto:hover .normal{
+    display: none;
+}
+.foto:hover .hoover{
+    display: block;
+} */
